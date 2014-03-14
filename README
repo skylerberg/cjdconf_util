@@ -1,0 +1,5 @@
+How to add a peer the easy way:
+Alice $ ./extract.py PATH/TO/cjdroute.conf ALICE'S.EXTERNAL.IP.ADDRESS. > credentials
+Alice sends Bob this file
+Bob $ ./insert PATH/TO/cjdroute.conf PATH/TO/credentials
+That is all.
